@@ -1,0 +1,135 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[info] Updated file /home/haoyangl/spark-test-apps/project/build.properties: set sbt.version to 1.7.1
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.7.1 (Private Build Java 1.8.0_342)
+[debug] Load.defaultLoad until apply took 51.305748ms
+[debug]                 Load.loadUnit: plugins took 56.146885ms
+[debug]                 Load.loadUnit: defsScala took 0.193245ms
+[debug] [Loading] Scanning directory /home/haoyangl/spark-test-apps/project/project
+[debug]                   Load.loadUnit: mkEval took 5.400094ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /home/haoyangl/spark-test-apps/project/project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 9.106881 ms
+[info] loading settings for project spark-test-apps-build-build from metals.sbt ...
+[debug]                     Load.resolveProject(spark-test-apps-build-build) took 27.63635ms
+[debug]                   Load.loadTransitive: finalizeProject(Project(id spark-test-apps-build-build, base: /home/haoyangl/spark-test-apps/project/project, plugins: List(<none>))) took 41.623082ms
+[debug] [Loading] Done in /home/haoyangl/spark-test-apps/project/project, returning: (spark-test-apps-build-build)
+[debug]                 Load.loadUnit: loadedProjectsRaw took 1284.221209ms
+[debug]                 Load.loadUnit: cleanEvalClasses took 4.047726ms
+[debug]               Load.loadUnit(file:/home/haoyangl/spark-test-apps/project/project/, ...) took 1347.591932ms
+[debug]             Load.apply: load took 1412.255951ms
+[debug]             Load.apply: resolveProjects took 3.016843ms
+[debug]             Load.apply: finalTransforms took 39.80149ms
+[debug]             Load.apply: config.delegates took 5.777293ms
+[debug]             Load.apply: Def.make(settings)... took 213.303756ms
+[debug]             Load.apply: structureIndex took 62.582474ms
+[debug]             Load.apply: mkStreams took 1.022209ms
+[info] loading project definition from /home/haoyangl/spark-test-apps/project/project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]           Load.loadUnit: plugins took 2617.666484ms
+[debug]           Load.loadUnit: defsScala took 0.002095ms
+[debug] [Loading] Scanning directory /home/haoyangl/spark-test-apps/project
+[debug]             Load.loadUnit: mkEval took 0.140814ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /home/haoyangl/spark-test-apps/project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(bloop.integrations.sbt.BloopPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(bloop.integrations.sbt.BloopPlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,bloop.integrations.sbt.BloopPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 1.290888 ms
+[info] loading settings for project spark-test-apps-build from metals.sbt ...
+[debug]               Load.resolveProject(spark-test-apps-build) took 103.873512ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id spark-test-apps-build, base: /home/haoyangl/spark-test-apps/project, plugins: List(<none>))) took 105.521505ms
+[debug] [Loading] Done in /home/haoyangl/spark-test-apps/project, returning: (spark-test-apps-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 349.93517ms
+[debug]           Load.loadUnit: cleanEvalClasses took 0.310065ms
+[debug]         Load.loadUnit(file:/home/haoyangl/spark-test-apps/project/, ...) took 2968.341874ms
+[debug]       Load.apply: load took 2969.345524ms
+[debug]       Load.apply: resolveProjects took 0.074156ms
+[debug]       Load.apply: finalTransforms took 8.649689ms
+[debug]       Load.apply: config.delegates took 0.289535ms
+[debug]       Load.apply: Def.make(settings)... took 51.287935ms
+[debug]       Load.apply: structureIndex took 19.096309ms
+[debug]       Load.apply: mkStreams took 0.002049ms
+[info] loading project definition from /home/haoyangl/spark-test-apps/project
+[debug] Evaluating tasks: bloopInstall
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[success] Generated .bloop/spark-test-apps-build.json
+[success] Total time: 1 s, completed Aug 24, 2022 3:02:38 PM
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 4302.85173ms
+[debug]     Load.loadUnit: defsScala took 0.002623ms
+[debug] [Loading] Scanning directory /home/haoyangl/spark-test-apps
+[debug]       Load.loadUnit: mkEval took 0.187136ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /home/haoyangl/spark-test-apps, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(bloop.integrations.sbt.BloopPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(bloop.integrations.sbt.BloopPlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,bloop.integrations.sbt.BloopPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 0.9026 ms
+[info] loading settings for project spark-test-apps from build.sbt ...
+[debug]         Load.resolveProject(spark-test-apps) took 11.717109ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id spark-test-apps, base: /home/haoyangl/spark-test-apps, plugins: List(<none>))) took 12.923083ms
+[debug] [Loading] Done in /home/haoyangl/spark-test-apps, returning: (spark-test-apps)
+[debug]     Load.loadUnit: loadedProjectsRaw took 605.962857ms
+[debug]     Load.loadUnit: cleanEvalClasses took 0.44807ms
+[debug]   Load.loadUnit(file:/home/haoyangl/spark-test-apps/, ...) took 4910.149553ms
+[debug] Load.apply: load took 4924.695655ms
+[debug] Load.apply: resolveProjects took 0.06151ms
+[debug] Load.apply: finalTransforms took 10.120403ms
+[debug] Load.apply: config.delegates took 0.289571ms
+[debug] Load.apply: Def.make(settings)... took 43.723852ms
+[debug] Load.apply: structureIndex took 17.712156ms
+[debug] Load.apply: mkStreams took 0.002292ms
+[info] set current project to Test Spark Apps (in build file:/home/haoyangl/spark-test-apps/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(bloopInstall, None, None)
+[debug] Evaluating tasks: bloopInstall
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true

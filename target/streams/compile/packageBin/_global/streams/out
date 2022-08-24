@@ -1,0 +1,13 @@
+[0m[[0m[0mdebug[0m] [0m[0mPackaging /home/haoyangl/spark-test-apps/target/scala-2.12/test-spark-apps_2.12-1.0.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	PreferenceAwareRDD$DefaultPartition.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/haoyangl/spark-test-apps/target/scala-2.12/classes/PreferenceAwareRDD$DefaultPartition.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	PreferenceAwareRDD.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/haoyangl/spark-test-apps/target/scala-2.12/classes/PreferenceAwareRDD.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	TestLocalityWait$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/haoyangl/spark-test-apps/target/scala-2.12/classes/TestLocalityWait$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	TestLocalityWait.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/haoyangl/spark-test-apps/target/scala-2.12/classes/TestLocalityWait.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	PreferenceAwareRDD$DefaultPartition$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/haoyangl/spark-test-apps/target/scala-2.12/classes/PreferenceAwareRDD$DefaultPartition$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m

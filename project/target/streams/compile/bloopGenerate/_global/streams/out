@@ -1,0 +1,4 @@
+[0m[[0m[0mdebug[0m] [0m[0m[spark-test-apps-build] Classpath dependencies List()[0m
+[0m[[0m[0mdebug[0m] [0m[0m[spark-test-apps-build] Dependencies from configurations List()[0m
+[0m[[0m[0mdebug[0m] [0m[0mBloop wrote the configuration of project 'spark-test-apps-build' to '/home/haoyangl/spark-test-apps/project/.bloop/spark-test-apps-build.json'[0m
+[0m[[0m[32msuccess[0m] [0m[0mGenerated .bloop/spark-test-apps-build.json[0m
